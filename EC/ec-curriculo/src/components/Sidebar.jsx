@@ -11,7 +11,7 @@ export default function Sidebar() {
 
       </div>
       <footer>
-        <a href="">Seu GitHub</a>
+        <a href="https://github.com/LHPS31/curriculo-eletronico">GitHub</a>
       </footer>
     </aside>
   )
