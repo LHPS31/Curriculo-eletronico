@@ -1,0 +1,57 @@
+.sidebar{
+    background-color: var(--gray-800);
+    border-radius: 10px;
+}
+
+.cover{
+    width: 100%;
+    height: 80px;
+    object-fit: cover; /*AUXILIA NO AJUSTE DO ELEMENTO, PARA NAO FICAR ACHATADO DE ACORDO COM O TAMANHO OU LARGURA*/
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+.avatar{
+    height: 7em;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile strong {
+    margin-top: 0.5em;
+    color: var(--gray-100);
+    line-height: 1;
+}
+
+.profile span{
+    background-color: transparent !important;
+    color: var(--green-300);
+    line-height: 1;
+    font-weight: 0.875rem;
+}
+
+.sidebar footer a{
+    color: var(--gray-100);
+    border: 1px solid var(--green-600);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 1em;
+    font-weight: bold;
+    background-color: transparent;
+    padding: 0.5rem;
+}
+
+.sidebar footer a:hover{
+    color: var(--green-100);
+}
+
+aside {
+    max-height: 300px;
+}

@@ -1,0 +1,40 @@
+.Comments{
+    margin-top: 2rem;
+    gap: 1rem;
+    display: flex;
+}
+
+p{
+    font-size: large;
+}
+
+.img{
+    width: 100px;
+    height: 3rem;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.CommentsContent{
+    background-color: var(--gray-700);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 1rem;
+    
+}
+
+.CommentsContent2{
+    background-color: var(--gray-700);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.CommentsContent3{
+    background-color: var(--gray-700);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+
